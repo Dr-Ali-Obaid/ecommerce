@@ -16,6 +16,7 @@ body {
     color: black !important;
 }
 
+/* تنسيقات القائمة العلوية */
 .custom-navbar {
     border-bottom: 3px solid #eef0ea;
     background-color: #fff;
@@ -106,4 +107,95 @@ body {
 border-color: #ff3956;
 box-shadow: 0 0 2px #ff3956;
 
+}
+
+/* تنسيقات عارض الشرائح */
+
+#carousel-featured{
+    background-color: #f7f8f3;
+    height: 400px;
+    padding-top: 25px;
+    
+}
+#carousel-featured .carousel-item img{
+    height: 375px;
+}
+#carousel-featured .product-details{
+    border: 1px solid #DDDDDB;
+    padding: 20px;
+    position: relative;
+    top: 50px;
+    height: 200px;
+    background-color: #F7F8F3;
+    
+}
+#carousel-featured .product-details .product-catagory{
+    border:  1px solid #DDDDDB;
+    background-color: #F7F8F3; 
+    position: absolute;
+    padding: 10px;
+    top: -10px;
+    right: -10px;
+}
+#carousel-featured .product-details h1{
+    font-weight: 700;
+    font-size: 175%;
+    margin-top: 18px;
+}
+.custom-btn-outline-warning{
+    border-color: #e1ac62;
+    background-color: transparent;
+    color: #e1ac62;
+}
+.custom-btn-outline-warning:hover,
+.custom-btn-outline-warning:active,
+.custom-btn-outline-warning:focus,
+.custom-btn-outline-warning:active:hover,
+.custom-btn-outline-warning:active:focus{
+    color: rgb(184, 109, 7);
+   border-color: rgb(184, 109, 7) ;
+}
+.custom-btn-outline-warning:focus{
+    box-shadow: none;
+}
+.sale{
+    background-color: #53CCD7;
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+}
+.sale.large{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    top: -15px;
+    left: -15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 130%;
+    padding: 35px;
+    line-height: 90%;
+    flex-direction: column;
+    transform: rotate(-25deg);
+}
+.custom-carousel-indicators{
+    top: 230px;
+    right: 40%;
+}
+.custom-carousel-indicators-primary{
+    height: 70px !important;
+    width: 70px !important;
+    opacity: 1 !important;
+    border: 2px solid #DDDDDB !important;
+    margin: 0 !important;
+    margin-left: 5px !important;
+}
+.custom-carousel-indicators-primary.active{
+    border-color: #f8ad47 !important;
+}
+#carousel-featured .carousel-control-prev .fa-chevron-right,
+#carousel-featured .carousel-control-next .fa-chevron-left{
+    color: #868686;
+    font-size: 38px;
 }
