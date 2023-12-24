@@ -109,7 +109,7 @@ box-shadow: 0 0 2px #ff3956;
 
 }
 
-/* تنسيقات عارض الشرائح */
+/* تنسيقات قسم المنتجات المميزة */
 
 #carousel-featured{
     background-color: #f7f8f3;
@@ -198,4 +198,26 @@ box-shadow: 0 0 2px #ff3956;
 #carousel-featured .carousel-control-next .fa-chevron-left{
     color: #868686;
     font-size: 38px;
+}
+
+/* بداية تنسيقات قسم مميزات المتجر */
+
+#store-featuers{
+    box-shadow: 0 0 15px #eef0ea;
+    background-image: url(../images/bg_features.png);
+    background-repeat: no-repeat;
+    background-size: auto 60%;
+    position: relative;
+    top: -30px;
+    background-color: #fff;
+    padding-bottom: 35px;
+    padding-top: 25px;
+    background-position: -10px -15px;
+}
+#store-featuers .feature>img{
+height: 40px;
+margin-bottom: 15px;
+}
+#store-featuers .feature + .feature {
+    border-right: 2px solid #eef0ea;
 }
