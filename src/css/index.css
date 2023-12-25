@@ -214,6 +214,11 @@ box-shadow: 0 0 2px #ff3956;
     padding-top: 25px;
     background-position: -10px -15px;
 }
+.heading{
+/*    تم تحديدها على هذا النحو حتى تنطبق التنسيقات على عناصر في حاويات أخرى  */
+    font-size: 24px;
+    margin-bottom: 25px;
+}
 #store-featuers .feature>img{
 height: 40px;
 margin-bottom: 15px;
@@ -221,3 +226,74 @@ margin-bottom: 15px;
 #store-featuers .feature + .feature {
     border-right: 2px solid #eef0ea;
 }
+
+/* بداية تنسيقات قسم الأكثر مبيعا */
+.custom-thumbnail img{
+    height: 250px;
+    width: 100%;
+    max-width: 250px;
+}
+.custom-thumbnail{
+    border: 2px solid #eef0ea;
+    padding: 8px;
+    cursor: pointer;
+    
+}
+.custom-thumbnail:hover{
+    border-color:#53CCD7 ;
+}
+.clearfix h4{
+    font-size: 18px;
+}
+.price{
+  /* تم تحديد هذا الصنف على هذا النحو حتى تطبق هذه التنسيقات على هذا الصنف في الحاويات الأخرى */
+color: #53CCD7;
+}
+.rating  {
+    color: #C2C2C2 ;
+}
+.rating .active{
+    color: #F3AF41;
+}
+.overlay{
+    background-color:rgba(83, 204, 215, 0.5);
+    position: absolute;
+    height: 250px;
+    width: calc(100% - 16px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+.overlay:hover{
+    opacity: 1;
+}
+.add-to-cart-btn{
+    background-color: #fff;
+    color: #53CCD7;
+    font-weight: 700;
+}
+.custom-thumbnail .sale{
+    padding: 5px 10px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+
+}
+.custom-thumbnail .sale::before{
+    content: " - ";
+}
+.custom-carousel-indicators2{
+    bottom: -70px !important;
+}
+.custom-carousel-indicators2>li{
+    width: 13px !important;
+    height: 13px !important;
+    background-color: #dbdbdb !important;
+    margin: 2px !important;
+}
+.custom-carousel-indicators2>li.active{
+    background-color: #565656 !important;
+}
+
