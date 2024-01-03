@@ -473,7 +473,110 @@ body {
     color: #303030;
     text-decoration: none;
 }
+/* نهاية تنسيقات ذيل الصفحة */
 
+
+/* ----------------------تنسيقات صفحة المنتج product.html------------------- */
+.custom-breadcrumb{
+    padding: 25px 0;
+}
+.custom-breadcrumb a{
+    color: #555555;
+    text-decoration: none;
+}
+.custom-breadcrumb a:hover{
+    color: #f8ad47;
+}
+.custom-breadcrumb>li::before{
+    color: #f8ad47 !important;
+}
+.custom-breadcrumb>li.active{
+    color: #bfbfbf;
+}
+#carousel-produt-images .custom-carousel-indicators{
+    position: absolute;
+    top: 92%;
+    right: 0;
+}
+#carousel-produt-images .carousel-item img{
+    width: 100%;
+    height: auto;
+    border: 1px solid #ebebeb;
+}
+.product-catagory{
+    color: #A9A9A9;
+}
+#form-product-selection h2{
+    font-weight: 700;
+    margin: 18px 0;
+}
+#form-product-selection .price.large{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.borders-between>div+div{
+    border-top: 1px solid #ebebeb;
+    padding: 15px 0;
+}
+.product-option{
+    display: inline-block;
+    height: 23px;
+    width: 23px;
+    border: 1px solid #ebebeb;
+    text-align: center !important;
+    justify-content: center;
+    margin: 3px;
+    color: #C2C2C2;
+    font-weight: 700;
+}
+.product-option label{
+    width: 100%;
+    height: 100%;
+}
+.product-option input{
+    display: none;
+    
+}
+.product-option.active{
+    color: #f8ad47;
+    border-color: #f8ad47;
+}
+.color-option.active{
+    border-color: #fff;
+    outline: #000 solid 1px;
+}
+.product-quantity select{
+    height: 34px !important;
+    padding: 6px 12px;
+    margin-right: 5px;
+}
+.custom-btn-with-icon{
+margin: 15px 0;
+padding: 5px 10px;
+font-size: 18px;
+}
+.heading-with-border-bottom{
+border-bottom: 1px solid #ebebeb;
+padding-bottom: 15px;
+}
+.heading-intline{
+display: inline-block;
+min-width: 250px;
+}
+.more-description p,
+.more-description ul{
+    margin-bottom: 10px;
+}
+.comments .comment img{
+width: 80px;
+height: 80px;
+margin-left: 10px;
+border: 1px solid #dfdfdf;
+}
+.comments .comment h4{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
 
 /* بداية تنسيقات تجاوبية الصفحة */
 
@@ -569,6 +672,16 @@ body {
         margin-top: 10px;
         font-size: 150%;
     }
+    .product-images{
+        margin-bottom: 70px;
+    }
+    .product-option{
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 20px;
+        margin: 10px;
+    }
 
 }
 
@@ -589,6 +702,9 @@ body {
 
     #carousel-featured .carousel-item img {
         height: 250px;
+    }
+    .add-to-cart-btn{
+        border-color: #555555
     }
     .custom-thumbnail img{
         height: 250px !important;
@@ -620,5 +736,9 @@ body {
     }
     #brands-logo img{
         margin: 5px 15px;
+    }
+    #form-product-selection,
+    .comments{
+        padding-right: 15px;
     }
 }
