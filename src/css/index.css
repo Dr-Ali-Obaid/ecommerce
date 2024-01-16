@@ -630,6 +630,16 @@ h1.custom-heading{
     color: #b90016;
 }
 
+/* ----------------------تنسيقات صفحة الدفع payment.html------------------- */
+.custom-input-details{
+    border-width: 2px;
+    border-radius: 3px;
+    height: 46px;
+    padding: 0 16px;
+    font-size: 18px;
+    width: 98%;
+}
+
 
 /* بداية تنسيقات تجاوبية الصفحة */
 
