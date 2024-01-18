@@ -254,7 +254,7 @@ body {
 
 /* بداية تنسيقات قسم الأكثر مبيعا */
 .custom-thumbnail img {
-    height: 250px;
+    max-height: 200px;
     width: 100%;
     max-width: 250px;
 }
@@ -272,7 +272,7 @@ body {
 }
 
 .clearfix h4 {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .price {
@@ -578,7 +578,7 @@ border: 1px solid #dfdfdf;
     margin-bottom: 5px;
 }
 
-/* ----------------------تنسيقات صفحة عربة الشراء checkout.html------------------- */
+/* --------------تنسيقات صفحة عربة الشراء checkout.html--------- */
 .custom-media img{
     width: 80px;
     height: 80px;
@@ -630,7 +630,7 @@ h1.custom-heading{
     color: #b90016;
 }
 
-/* ----------------------تنسيقات صفحة الدفع payment.html------------------- */
+/* ---------------تنسيقات صفحة الدفع payment.html----------- */
 .custom-input-details{
     border-width: 2px;
     border-radius: 3px;
@@ -638,6 +638,52 @@ h1.custom-heading{
     padding: 0 16px;
     font-size: 18px;
     width: 98%;
+}
+
+/* -------------تنسيقات صفحة البحث  search.html------------- */
+#form-advanced-search{
+    border: 1px solid #ebebeb;
+    padding-bottom: 20px;
+    margin-bottom: 35px;
+    height: fit-content;
+}
+#form-advanced-search .panel{
+    border: none  ;
+    padding-bottom: 5px;
+}
+.panel .card-header{
+    background-color: transparent;
+    margin-bottom: 15px;
+    padding-bottom: 13px;
+}
+.custom-list-group .list-group-item{
+    border: none;
+}
+#form-advanced-search label{
+    font-weight: bold;
+    cursor: pointer;
+}
+.custom-pagination .page-link{
+    margin-right: 3px !important;
+    margin-left: 3px !important;
+    border: 1px solid #ebebeb !important;
+    width: 32px !important;
+    height: 32px !important;
+    color: #C2C2C2 !important;
+    outline:none !important;
+    text-decoration: none !important;
+}
+.custom-pagination .page-item.active .page-link{
+    background-color: #f8ad47 !important;
+    color: #fff !important;
+    border-color: #f8ad47 !important;
+}
+.custom-pagination .page-link:hover,
+.custom-pagination .page-link:focus,
+.custom-pagination .page-link:active{
+    color: #f8ad47 !important;
+    background-color: #fff !important;
+    border-color: #f8ad47 !important;
 }
 
 
@@ -745,7 +791,12 @@ h1.custom-heading{
         font-size: 20px;
         margin: 10px;
     }
-
+    .search-pagination{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+   
 }
 
 @media (max-width: 767.98px) {
