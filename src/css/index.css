@@ -686,6 +686,28 @@ h1.custom-heading{
     border-color: #f8ad47 !important;
 }
 
+/* -------------تنسيقات صفحة تواصل معنا  contact.html------------- */
+.custom-map iframe{
+    padding: 0;
+    max-height: 250px;
+}
+#contact-option h3{
+    font-size: 18px;
+ 
+}
+#contact-option .contacts .contact-details{
+    margin: 10px 0 10px;
+}
+#contact-option .fa-lg{
+    color: #f3af41;
+  margin-left: 5px;
+}
+#contact-option .name-email input{
+    height: 45px;
+}
+#contact-option textarea{
+    height: 110px !important;
+}
 
 /* بداية تنسيقات تجاوبية الصفحة */
 
@@ -795,6 +817,10 @@ h1.custom-heading{
         display: flex;
         justify-content: center;
         text-align: center;
+    }
+    #contact-option .contacts,
+    #contact-option .newsletters{
+        margin-bottom: 20px;
     }
    
 }
