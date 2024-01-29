@@ -1,8 +1,10 @@
 import * as bootstrap from 'bootstrap';
 window.bootstrap = bootstrap;
-import 'bootstrap/dist/css/bootstrap.min.css'
+import './sass/custom.scss';
 import './css/index.css';
-import '@fortawesome/fontawesome-free/js/all.min.js'
+import '@fortawesome/fontawesome-free/js/all.min.js';
+import './sass/style.scss';
+
 
 
 document.querySelectorAll('[data-bs-toggle ="tooltip"]').forEach(item => new bootstrap.Tooltip(item));

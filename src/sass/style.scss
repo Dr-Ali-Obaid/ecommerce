@@ -1,0 +1,81 @@
+@import './variables';
+@import './customTable';
+@import './mixins';
+@import './custom-thumbnail';
+
+.custom-form-control,
+.custom-btn {
+    border: 1px solid #ebebeb;
+    border-radius: 2px;
+    box-shadow: none;
+    color: #686868;
+    height: 38px;
+    padding: 6px 16px 7px;
+    transition: all 0.5s ease;
+}
+
+.custom-btn:hover,
+.custom-btn:focus {
+    background-color: #d4d4d4;
+    border: 1px solid #8c8c8c;
+    color: $brand-danger;
+}
+.custom-form-control:hover,
+.custom-form-control:focus {
+    border-color: $brand-danger;
+    box-shadow: 0 0 2px $brand-danger;
+
+}
+.custom-btn-outline-warning {
+    @include button-style ($brand-warning)
+}
+
+
+
+.custom-btn-warning {
+    color: #000;
+    background-color: $brand-warning;
+    border-color:$brand-warning;
+}
+
+.custom-btn-warning:hover,
+.custom-btn-warning:focus,
+.custom-btn-warning:active,
+.custom-btn-warning:active:hover,
+.custom-btn-warning:active:focus {
+    background-color: $brand-warning-dark;
+    border-color:$brand-warning-dark;
+    box-shadow: none;
+}
+.custom-btn-outline-danger{
+    @include button-style($brand-danger)
+}
+
+.add-to-cart-btn {
+    background-color: #fff;
+    color: $brand-primary;
+    font-weight: 700;
+}
+.search-btn {
+    background-color: $brand-danger;
+    color: #fff;
+    border-color: $brand-danger;
+    border-radius: 0;
+    padding: 5px 15px 7px;
+    height: 38px;
+    width: 65px;
+    font-weight: 700;
+    font-size: 14px;
+    transition: all 0.5s ease;
+}
+
+.search-btn:hover,
+.search-btn:active,
+.search-btn:focus,
+.search-btn:active:hover,
+.search-btn:active:focus {
+    background-color: $brand-danger-dark;
+    color: #fff;
+    border-color: $brand-danger-dark;
+    box-shadow: none;
+}

@@ -1,0 +1,11 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+$warning: #ffc107;
+$theme-colors: (
+    "warning": $warning
+);
+
+
+@import '../../node_modules/bootstrap/scss/bootstrap';
